@@ -1,0 +1,42 @@
+@font-face{
+  font-family: "Futura";
+  src: url("/fonts/futura.woff2") format('woff2');
+}
+
+
+h1, h2 {
+  font-family: 'Montserrat', 'sans-serif';
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 80px;
+  font-size: 40px;
+  color: #b7a064;
+  font-weight: 300;
+}
+
+
+h2 {
+  color: #b7a064;
+  font-weight: 200;
+}
+
+hr{
+  margin: 2em;
+  height: 3px;
+  background-image: -webkit-linear-gradient(left, rgba(183, 160, 100, 0), rgba(183, 160, 100, 0.5), rgba(183, 160, 100, 0));
+  border: 0;
+}
+
+
+body * {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #f9f9f9;
+}
