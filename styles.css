@@ -4,10 +4,8 @@
 }
 
 
-h1, h2 {
+h1, h2, h3, h4, p {
   font-family: 'Montserrat', 'sans-serif';
-  text-transform: uppercase;
-  text-align: center;
 }
 
 h1 {
@@ -15,12 +13,33 @@ h1 {
   font-size: 40px;
   color: #b7a064;
   font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
 }
-
 
 h2 {
   color: #b7a064;
   font-weight: 200;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: 100;
+  color: #b7a064;
+  padding: 16px;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+p {
+  color: #9b9b9b;
+  font-size: 14px;
 }
 
 hr{
@@ -30,13 +49,43 @@ hr{
   border: 0;
 }
 
-
 body * {
-  max-width: 800px;
+  max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
 }
 
 body {
   background-color: #f9f9f9;
+}
+
+.nominee {
+  padding: 16px !important;
+}
+
+.nominee-data {
+  background-color: white;
+  height: 13em;
+}
+
+.nominee-image {
+  height: 13em;
+  border-bottom: 4px solid #b7a261;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nominee-image.person {
+  background-image: url("https://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2017/12/07151431/5d5bded006a37adf75871b3f9617dadcccefad8fcd9ff5e99ffc56a6c43af25a-370x492.jpg");
+}
+
+.nominee-data h4::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: #b7a261;
+  margin-top: 14px;
+  margin-bottom: 10px;
 }
